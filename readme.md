@@ -118,20 +118,20 @@ g++ .\akinator_main.cpp -o .\akinator_main.exe -lraylib -lopengl32 -lgdi32 -lwin
 
 Первый этап - выбор режима работы
 
-![begining](begining.png)
+![begining](<img width="791" height="443" alt="begining" src="https://github.com/user-attachments/assets/013cf93c-8c97-47af-af79-d2b8df5b8299" />)
 
 Второй этап - выбор файла-базы данных
 
-![enterfilename](enterfilename.png)
+![enterfilename](<img width="795" height="444" alt="enterfilename" src="https://github.com/user-attachments/assets/00fa7143-7257-4822-9e51-c82a7a044c4b" />)
 
 Угадывание путем ответов на вопросы
 
-![guessing](guessing.png)
+![guessing](<img width="794" height="443" alt="guessing" src="https://github.com/user-attachments/assets/198a9179-5cff-4745-9fde-d6bfd1b5a677" />)
 
 Дообучение в случае неугадывания
 
-![relearning](relearning.png)
-![relearning2](relearning2.png)
+![relearning](<img width="792" height="446" alt="relearning" src="https://github.com/user-attachments/assets/fd98f079-e559-445a-9fa6-eaf7d6ff8496" />)
+![relearning2](<img width="786" height="443" alt="relearning2" src="https://github.com/user-attachments/assets/ce3b8403-f058-4afd-9e85-45104db4612b" />)
 
 
 
