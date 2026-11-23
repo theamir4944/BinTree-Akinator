@@ -1,0 +1,93 @@
+digraph {
+
+node [shape = Mrecord, fontcolor="black", style="filled", color="black"]
+splines = line;
+nodesep = 1.0;
+ranksep = 1.0;
+"node000001cca51f1930" [label = "{parent: 0000000000000000 | value: Won a GP | { <l> child_1: 000001cca51f1c30 | <r> child_2: 000001cca51f1f60 }}", fillcolor="white"]
+"node000001cca51f1930":l -> "node000001cca51f1c30" [label = "No", color = "red"];
+"node000001cca51f1c30" [label = "{parent: 000001cca51f1930 | value: Under 25 | { <l> child_1: 000001cca51f1900 | <r> child_2: 000001cca51f1c90 }}", fillcolor="red"]
+"node000001cca51f1c30":l -> "node000001cca51f1900" [label = "No", color = "red"];
+"node000001cca51f1900" [label = "{parent: 000001cca51f1c30 | value: Canadian | { <l> child_1: 000001cca51f2200 | <r> child_2: 000001cca51f1990 }}", fillcolor="red"]
+"node000001cca51f1900":l -> "node000001cca51f2200" [label = "No", color = "red"];
+"node000001cca51f2200" [label = "{parent: 000001cca51f1900 | value: German | { <l> child_1: 000001cca51f22f0 | <r> child_2: 000001cca51f1cf0 }}", fillcolor="red"]
+"node000001cca51f2200":l -> "node000001cca51f22f0" [label = "No", color = "red"];
+"node000001cca51f22f0" [label = "{parent: 000001cca51f2200 | value: Albon | { <l> child_1: 0000000000000000 | <r> child_2: 0000000000000000 }}", fillcolor="red"]
+"node000001cca51f2200":r -> "node000001cca51f1cf0" [label = "Yes", color = "green"];
+"node000001cca51f1cf0" [label = "{parent: 000001cca51f2200 | value: Hulkenberg | { <l> child_1: 0000000000000000 | <r> child_2: 0000000000000000 }}", fillcolor="green"]
+"node000001cca51f1900":r -> "node000001cca51f1990" [label = "Yes", color = "green"];
+"node000001cca51f1990" [label = "{parent: 000001cca51f1900 | value: Stroll | { <l> child_1: 0000000000000000 | <r> child_2: 0000000000000000 }}", fillcolor="green"]
+"node000001cca51f1c30":r -> "node000001cca51f1c90" [label = "Yes", color = "green"];
+"node000001cca51f1c90" [label = "{parent: 000001cca51f1c30 | value: European | { <l> child_1: 000001cca51f1a50 | <r> child_2: 000001cca51f1b40 }}", fillcolor="green"]
+"node000001cca51f1c90":l -> "node000001cca51f1a50" [label = "No", color = "red"];
+"node000001cca51f1a50" [label = "{parent: 000001cca51f1c90 | value: South American | { <l> child_1: 000001cca51f1ed0 | <r> child_2: 000001cca51f1cc0 }}", fillcolor="red"]
+"node000001cca51f1a50":l -> "node000001cca51f1ed0" [label = "No", color = "red"];
+"node000001cca51f1ed0" [label = "{parent: 000001cca51f1a50 | value: Lawson | { <l> child_1: 0000000000000000 | <r> child_2: 0000000000000000 }}", fillcolor="red"]
+"node000001cca51f1a50":r -> "node000001cca51f1cc0" [label = "Yes", color = "green"];
+"node000001cca51f1cc0" [label = "{parent: 000001cca51f1a50 | value: Argentinian | { <l> child_1: 000001cca51f2350 | <r> child_2: 000001cca51f20e0 }}", fillcolor="green"]
+"node000001cca51f1cc0":l -> "node000001cca51f2350" [label = "No", color = "red"];
+"node000001cca51f2350" [label = "{parent: 000001cca51f1cc0 | value: Bortoleto | { <l> child_1: 0000000000000000 | <r> child_2: 0000000000000000 }}", fillcolor="red"]
+"node000001cca51f1cc0":r -> "node000001cca51f20e0" [label = "Yes", color = "green"];
+"node000001cca51f20e0" [label = "{parent: 000001cca51f1cc0 | value: Colapinto | { <l> child_1: 0000000000000000 | <r> child_2: 0000000000000000 }}", fillcolor="green"]
+"node000001cca51f1c90":r -> "node000001cca51f1b40" [label = "Yes", color = "green"];
+"node000001cca51f1b40" [label = "{parent: 000001cca51f1c90 | value: British | { <l> child_1: 000001cca51f18a0 | <r> child_2: 000001cca51f2110 }}", fillcolor="green"]
+"node000001cca51f1b40":l -> "node000001cca51f18a0" [label = "No", color = "red"];
+"node000001cca51f18a0" [label = "{parent: 000001cca51f1b40 | value: Italian | { <l> child_1: 000001cca51f1d80 | <r> child_2: 000001cca51f2380 }}", fillcolor="red"]
+"node000001cca51f18a0":l -> "node000001cca51f1d80" [label = "No", color = "red"];
+"node000001cca51f1d80" [label = "{parent: 000001cca51f18a0 | value: Hadjar | { <l> child_1: 0000000000000000 | <r> child_2: 0000000000000000 }}", fillcolor="red"]
+"node000001cca51f18a0":r -> "node000001cca51f2380" [label = "Yes", color = "green"];
+"node000001cca51f2380" [label = "{parent: 000001cca51f18a0 | value: Antonelli | { <l> child_1: 0000000000000000 | <r> child_2: 0000000000000000 }}", fillcolor="green"]
+"node000001cca51f1b40":r -> "node000001cca51f2110" [label = "Yes", color = "green"];
+"node000001cca51f2110" [label = "{parent: 000001cca51f1b40 | value: Debut 2026 | { <l> child_1: 000001cca51f1ab0 | <r> child_2: 000001cca51f1960 }}", fillcolor="green"]
+"node000001cca51f2110":l -> "node000001cca51f1ab0" [label = "No", color = "red"];
+"node000001cca51f1ab0" [label = "{parent: 000001cca51f2110 | value: Bearman | { <l> child_1: 0000000000000000 | <r> child_2: 0000000000000000 }}", fillcolor="red"]
+"node000001cca51f2110":r -> "node000001cca51f1960" [label = "Yes", color = "green"];
+"node000001cca51f1960" [label = "{parent: 000001cca51f2110 | value: Lindblad | { <l> child_1: 0000000000000000 | <r> child_2: 0000000000000000 }}", fillcolor="green"]
+"node000001cca51f1930":r -> "node000001cca51f1f60" [label = "Yes", color = "green"];
+"node000001cca51f1f60" [label = "{parent: 000001cca51f1930 | value: Top team | { <l> child_1: 000001cca51f1ae0 | <r> child_2: 000001cca51f2020 }}", fillcolor="green"]
+"node000001cca51f1f60":l -> "node000001cca51f1ae0" [label = "No", color = "red"];
+"node000001cca51f1ae0" [label = "{parent: 000001cca51f1f60 | value: Cadillac or Williams | { <l> child_1: 000001cca51f23b0 | <r> child_2: 000001cca51f2140 }}", fillcolor="red"]
+"node000001cca51f1ae0":l -> "node000001cca51f23b0" [label = "No", color = "red"];
+"node000001cca51f23b0" [label = "{parent: 000001cca51f1ae0 | value: French | { <l> child_1: 000001cca51f1840 | <r> child_2: 000001cca51f23e0 }}", fillcolor="red"]
+"node000001cca51f23b0":l -> "node000001cca51f1840" [label = "No", color = "red"];
+"node000001cca51f1840" [label = "{parent: 000001cca51f23b0 | value: Alonso | { <l> child_1: 0000000000000000 | <r> child_2: 0000000000000000 }}", fillcolor="red"]
+"node000001cca51f23b0":r -> "node000001cca51f23e0" [label = "Yes", color = "green"];
+"node000001cca51f23e0" [label = "{parent: 000001cca51f23b0 | value: Alpine | { <l> child_1: 000001cca51f1db0 | <r> child_2: 000001cca51f1de0 }}", fillcolor="green"]
+"node000001cca51f23e0":l -> "node000001cca51f1db0" [label = "No", color = "red"];
+"node000001cca51f1db0" [label = "{parent: 000001cca51f23e0 | value: Ocon | { <l> child_1: 0000000000000000 | <r> child_2: 0000000000000000 }}", fillcolor="red"]
+"node000001cca51f23e0":r -> "node000001cca51f1de0" [label = "Yes", color = "green"];
+"node000001cca51f1de0" [label = "{parent: 000001cca51f23e0 | value: Gasly | { <l> child_1: 0000000000000000 | <r> child_2: 0000000000000000 }}", fillcolor="green"]
+"node000001cca51f1ae0":r -> "node000001cca51f2140" [label = "Yes", color = "green"];
+"node000001cca51f2140" [label = "{parent: 000001cca51f1ae0 | value: Mexican | { <l> child_1: 000001cca51f1f90 | <r> child_2: 000001cca51f1870 }}", fillcolor="green"]
+"node000001cca51f2140":l -> "node000001cca51f1f90" [label = "No", color = "red"];
+"node000001cca51f1f90" [label = "{parent: 000001cca51f2140 | value: Finnish | { <l> child_1: 000001cca51f1fc0 | <r> child_2: 000001cca51f1ff0 }}", fillcolor="red"]
+"node000001cca51f1f90":l -> "node000001cca51f1fc0" [label = "No", color = "red"];
+"node000001cca51f1fc0" [label = "{parent: 000001cca51f1f90 | value: Sainz | { <l> child_1: 0000000000000000 | <r> child_2: 0000000000000000 }}", fillcolor="red"]
+"node000001cca51f1f90":r -> "node000001cca51f1ff0" [label = "Yes", color = "green"];
+"node000001cca51f1ff0" [label = "{parent: 000001cca51f1f90 | value: Bottas | { <l> child_1: 0000000000000000 | <r> child_2: 0000000000000000 }}", fillcolor="green"]
+"node000001cca51f2140":r -> "node000001cca51f1870" [label = "Yes", color = "green"];
+"node000001cca51f1870" [label = "{parent: 000001cca51f2140 | value: Perez | { <l> child_1: 0000000000000000 | <r> child_2: 0000000000000000 }}", fillcolor="green"]
+"node000001cca51f1f60":r -> "node000001cca51f2020" [label = "Yes", color = "green"];
+"node000001cca51f2020" [label = "{parent: 000001cca51f1f60 | value: World champion | { <l> child_1: 000001cca51f2050 | <r> child_2: 000001cca51f2da0 }}", fillcolor="green"]
+"node000001cca51f2020":l -> "node000001cca51f2050" [label = "No", color = "red"];
+"node000001cca51f2050" [label = "{parent: 000001cca51f2020 | value: McLaren | { <l> child_1: 000001cca51f2710 | <r> child_2: 000001cca51f27a0 }}", fillcolor="red"]
+"node000001cca51f2050":l -> "node000001cca51f2710" [label = "No", color = "red"];
+"node000001cca51f2710" [label = "{parent: 000001cca51f2050 | value: Ferrari | { <l> child_1: 000001cca51f2d70 | <r> child_2: 000001cca51f2770 }}", fillcolor="red"]
+"node000001cca51f2710":l -> "node000001cca51f2d70" [label = "No", color = "red"];
+"node000001cca51f2d70" [label = "{parent: 000001cca51f2710 | value: Russell | { <l> child_1: 0000000000000000 | <r> child_2: 0000000000000000 }}", fillcolor="red"]
+"node000001cca51f2710":r -> "node000001cca51f2770" [label = "Yes", color = "green"];
+"node000001cca51f2770" [label = "{parent: 000001cca51f2710 | value: Leclerc | { <l> child_1: 0000000000000000 | <r> child_2: 0000000000000000 }}", fillcolor="green"]
+"node000001cca51f2050":r -> "node000001cca51f27a0" [label = "Yes", color = "green"];
+"node000001cca51f27a0" [label = "{parent: 000001cca51f2050 | value: Piastri | { <l> child_1: 0000000000000000 | <r> child_2: 0000000000000000 }}", fillcolor="green"]
+"node000001cca51f2020":r -> "node000001cca51f2da0" [label = "Yes", color = "green"];
+"node000001cca51f2da0" [label = "{parent: 000001cca51f2020 | value: More than 4 titles | { <l> child_1: 000001cca51f2aa0 | <r> child_2: 000001cca51f2f20 }}", fillcolor="green"]
+"node000001cca51f2da0":l -> "node000001cca51f2aa0" [label = "No", color = "red"];
+"node000001cca51f2aa0" [label = "{parent: 000001cca51f2da0 | value: Red Bull | { <l> child_1: 000001cca51f2980 | <r> child_2: 000001cca51f2470 }}", fillcolor="red"]
+"node000001cca51f2aa0":l -> "node000001cca51f2980" [label = "No", color = "red"];
+"node000001cca51f2980" [label = "{parent: 000001cca51f2aa0 | value: Norris | { <l> child_1: 0000000000000000 | <r> child_2: 0000000000000000 }}", fillcolor="red"]
+"node000001cca51f2aa0":r -> "node000001cca51f2470" [label = "Yes", color = "green"];
+"node000001cca51f2470" [label = "{parent: 000001cca51f2aa0 | value: Verstappen | { <l> child_1: 0000000000000000 | <r> child_2: 0000000000000000 }}", fillcolor="green"]
+"node000001cca51f2da0":r -> "node000001cca51f2f20" [label = "Yes", color = "green"];
+"node000001cca51f2f20" [label = "{parent: 000001cca51f2da0 | value: Hamilton | { <l> child_1: 0000000000000000 | <r> child_2: 0000000000000000 }}", fillcolor="green"]
+
+}
